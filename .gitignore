@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Data files
+*.csv
+*.parquet
+data/processed/
+data/raw/
+data/outputs/
+
+# Agent outputs
+outputs/
+agent_logs/
+results/
+conversations/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# LangChain cache
+.langchain/
+
+# Agent memory
+agent_memory/
